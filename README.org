@@ -20,6 +20,7 @@ These are the configs I extracted out from my Emacs config to define commonly us
 2. Researcher
    1. arxiv
       arxiv:id
+   2. doi
 3. Developer
    1. python pep
    2. rfc
