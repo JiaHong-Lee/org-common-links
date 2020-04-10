@@ -1,0 +1,33 @@
+#+TITLE:  Org Common Links
+#+AUTHOR: Lee Jia Hong
+#+EMAIL:  jia_hong@live.com.my
+#+DATE:   [2020-04-08 Wed]
+#+KEYWORDS:   emacs org mode common links orglink
+
+* Introduction
+These are the configs I extracted out from my Emacs config to define commonly used url as simple org-links. E.g. github:JiaHong-Lee/emacs.d.
+
+* Defined Common Links
+1. Common
+   1. Wikipedia
+      wikipedia:topic-url
+      variable: wikipedia url
+   2. Google search
+      google:search-term
+   3. Duckduckgo search
+      ddg:search-term
+   4. Bing search
+2. Researcher
+   1. arxiv
+      arxiv:id
+3. Developer
+   1. python pep
+   2. rfc
+   3. man
+   4. info
+   5. github
+      github:username/repo
+4. Social Media
+   1. twitter
+   2. instagram
+   3. facebook
