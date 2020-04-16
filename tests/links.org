@@ -1,0 +1,13 @@
+* GitHub
+1. GitHub repo
+   github:python-poetry/poetry
+2. GitHub issue
+   github:python-poetry/poetry#1135
+3. GitHub pull request
+   github:python-poetry/poetry#2294
+4. GitHub multiple issues
+   github:python-poetry/poetry#1135,34,162
+5. GitHub multiple pull requests
+   github:python-poetry/poetry#2294,2287,2262,2242
+6. GitHub mixture of issues and pull requests
+   github:python-poetry/poetry#1135,34,2294,2287
