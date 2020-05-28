@@ -5,7 +5,7 @@
 #+KEYWORDS:   emacs org mode common links orglink
 
 * Introduction
-These are the configs I extracted out from my Emacs config to define commonly used url as simple org-links. E.g. github:JiaHong-Lee/emacs.d.
+These are the configs I extracted out from my Emacs config to define commonly used url as simple org-links, with org-export support to HTML and LaTeX. E.g. github:JiaHong-Lee/emacs.d.
 
 * Defined Common Links
 1. Common
