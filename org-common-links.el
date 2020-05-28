@@ -1,5 +1,23 @@
 ;;; org-common-links.el
 
+(defgroup org-common-link nil
+  "Commonly defined org-links."
+  :group 'convenience
+  :prefix "org-common-link-")
+
+;;; Wikipedia
+(org-add-link-type "wikipedia" 'org-common-links--open-wikipedia)
+
+(defcustom org-common-links-wikipedia-url "https://www.wikipedia.org/wiki/%s"
+  "The wikipedia url to open topic."
+  :group 'org-common-link
+  :type '(string))
+
+(defun org-common-links--open-wikipedia (link)
+  "Open the given wikipedia org-link."
+  (let ((finalurl (format org-common-links-wikipedia-url link)))
+    (browse-url finalurl)))
+
 ;;; MAN
 (org-add-link-type "man" 'org-man-open)
 (add-hook 'org-store-link-functions 'org-man-store-link)
