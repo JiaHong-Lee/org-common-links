@@ -32,3 +32,6 @@ These are the configs I extracted out from my Emacs config to define commonly us
    1. twitter
    2. instagram
    3. facebook
+   5. Reddit
+      reddit:r/netsec
+      reddit:u/abc
