@@ -24,7 +24,7 @@
            (format "\\href{%s}{%s}" fullurl description))
           ((eq format 'ascii)
            (format "%s (%s)" fullurl description))
-          (t esplink))))
+          (t fullurl))))
 
 (org-link-set-parameters "wikipedia"
                          :follow #'org-common-links--open-wikipedia-link
